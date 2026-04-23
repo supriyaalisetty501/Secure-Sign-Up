@@ -97,19 +97,3 @@ This project is open-source and available under the MIT License.
 
 
 
-### 📱 Mobile View
-![Mobile Preview](https://github.com/your-username/basket-sign-up/raw/main/assets/screenshots/mobile.png)
-⚡ EVEN BETTER (PRO STYLE CENTERED IMAGES)
-## 📸 Preview
-
-<div align="center">
-
-### 💻 Desktop View
-<img src="https://github.com/your-username/basket-sign-up/raw/main/assets/screenshots/desktop.png" width="700"/>
-
-<br>
-
-### 📱 Mobile View
-<img src="https://github.com/your-username/basket-sign-up/raw/main/assets/screenshots/mobile.png" width="300"/>
-
-</div>
