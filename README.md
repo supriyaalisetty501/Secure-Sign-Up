@@ -41,12 +41,12 @@ This project focuses on improving **frontend development skills, UI design, and 
 <div align="center">
 
 ### 💻 Desktop View
-<img src="https://github.com/your-username/basket-sign-up/raw/main/assets/screenshots/desktop.png" width="700"/>
+<img src="https://github.com/supriyaalisetty501/basket-sign-up/raw/main/assets/screenshots/desktop.png" width="700"/>
 
 <br><br>
 
 ### 📱 Mobile View
-<img src="https://github.com/your-username/basket-sign-up/raw/main/assets/screenshots/mobile.png" width="300"/>
+<img src="https://github.com/supriyaalisetty501/basket-sign-up/raw/main/assets/screenshots/mobile.png" width="300"/>
 
 </div>
 
