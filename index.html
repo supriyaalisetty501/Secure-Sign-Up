@@ -8,110 +8,147 @@
     <meta name="msapplication-navbutton-color" content="#06aa5e">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>Sign up Page | Alisetty Supriya</title>
+
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/js/script.js" defer></script>
 </head>
+
 <body>
-    <marquee behavior="scroll" direction="left" style="background:#22c55e; color:white; padding:8px; font-weight:bold;">
-    Welcome to Basket™ Sign Up Page 🚀 Get exciting offers today!  Created By Alisetty Supriya
+
+<!-- TOP MARQUEE -->
+<marquee behavior="scroll" direction="left" style="background:#22c55e; color:white; padding:8px; font-weight:bold;">
+Welcome to Basket™ Sign Up Page 🚀 Get exciting offers today! Created By Alisetty Supriya
 </marquee>
-    <main class="card-container slideUp-animation">
-        <div class="image-container">
-            <h1 class="company">Basket <sup>&trade;</sup></h1>
-            <img src="./assets/images/signUp.svg" class="illustration" alt="">
-            <p class="quote">Sign up today to get exciting offers..!</p>
-            <a href="#btm" class="mobile-btm-nav">
-                <img src="./assets/images/dbl-arrow.png" alt="">
-            </a>
-        </div>
-        
-        <form action="" method="">
-            
-            
-            <div class="form-container slideRight-animation">
-    
-                <h1 class="form-header">
-                    Get started
-                </h1>
-    
-                <div class="input-container">
-                    <label for="f-name"></label>
-                    <input type="text" name="f-name" id="f-name" required>
-                    <span>
-                        First name
-                    </span>
-                    <div class="error"></div>
-                </div>
-    
-                <div class="input-container">
-                    <label for="l-name"></label>
-                    <input type="text" name="l-name" id="l-name" required>
-                    <span>
-                        Last name
-                    </span>
-                    <div class="error"></div>
-                </div>
-    
-                <div class="input-container">
-                    <label for="mail">
-                    </label>
-                    <input type="email" name="mail" id="mail" required>
-                    <span>
-                        E-mail
-                    </span>
-                    <div class="error"></div>
-                </div>
-    
-                <div class="input-container">
-                    <label for="phone">
-                    </label>
-                    <input type="tel" name="phone" id="phone" required>
-                    <span>Phone</span>
-                    <div class="error"></div>
-                </div>
-    
-                <div class="input-container">
-                    <label for="user-password"></label>
-                    <input type="password" name="user-password" id="user-password" class="user-password" required>
-                    <span>Password</span>
-                    <div class="error"></div>
-                </div>
 
-                <div class="input-container">
-                    <label for="user-password-confirm"></label>
-                    <input type="password" name="user-password-confirm" id="user-password-confirm" class="password-confirmation" required>
-                    <span>
-                        Confirm Password
-                    </span>
-                    <div class="error"></div>
-                </div>
+<!-- MAIN CONTAINER -->
+<main class="card-container slideUp-animation">
 
-                <div id="btm">
-                              <button type="submit" class="submit-btn">
+    <!-- LEFT IMAGE SECTION -->
+    <div class="image-container">
+        <h1 class="company">Basket <sup>&trade;</sup></h1>
+
+        <img src="./assets/images/signUp.svg" class="illustration" alt="Sign Up">
+
+        <p class="quote">
+            Sign up today to get exciting offers..!
+        </p>
+
+        <a href="#btm" class="mobile-btm-nav">
+            <img src="./assets/images/dbl-arrow.png" alt="">
+        </a>
+    </div>
+
+    <!-- FORM SECTION -->
+    <form action="" method="">
+
+        <div class="form-container slideRight-animation">
+
+            <h1 class="form-header">
+                Get started
+            </h1>
+
+            <!-- FIRST NAME -->
+            <div class="input-container">
+                <label for="f-name"></label>
+                <input type="text" id="f-name" required>
+                <span>First name</span>
+                <div class="error"></div>
+            </div>
+
+            <!-- LAST NAME -->
+            <div class="input-container">
+                <label for="l-name"></label>
+                <input type="text" id="l-name" required>
+                <span>Last name</span>
+                <div class="error"></div>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="input-container">
+                <label for="mail"></label>
+                <input type="email" id="mail" required>
+                <span>E-mail</span>
+                <div class="error"></div>
+            </div>
+
+            <!-- PHONE -->
+            <div class="input-container">
+                <label for="phone"></label>
+                <input type="tel" id="phone" required>
+                <span>Phone</span>
+                <div class="error"></div>
+            </div>
+
+            <!-- PASSWORD -->
+            <div class="input-container">
+                <label for="user-password"></label>
+                <input type="password" id="user-password" required>
+                <span>Password</span>
+                <small class="toggle-password"
+                    onclick="togglePassword('user-password', this)">👁</small>
+                <div class="error"></div>
+            </div>
+
+            <!-- CONFIRM PASSWORD -->
+            <div class="input-container">
+                <label for="user-password-confirm"></label>
+                <input type="password" id="user-password-confirm" required>
+                <span>Confirm Password</span>
+                <small class="toggle-password"
+                    onclick="togglePassword('user-password-confirm', this)">👁</small>
+                <div class="error"></div>
+            </div>
+
+            <!-- BUTTON -->
+            <div id="btm">
+
+                <button type="submit" class="submit-btn">
     <span class="btn-text"><h2>Create Account</h2></span>
     <span class="loader"></span>
 </button>
-                    <p class="btm-text">
-    Already have an account..? 
-    <a href="login.html" class="btm-text-highlighted">Log in</a>
-</p>
-                </div>
+                
+
+                <p class="btm-text">
+                    Already have an account..?
+                    <a href="login.html" class="btm-text-highlighted">
+                        Log in
+                    </a>
+                </p>
+
             </div>
-        </form>
-    </main>
-    <section class="outro-overlay disabled slideUp-animation">
-        <h1 class="company">Basket <sup>&trade;</sup></h1>
-        <h1 class="outro-greeting">Thank's for signing up..!</h1>
-        <img src="./assets/images/shape.svg" alt="" class="shape">
-        <img src="./assets/images/signedUp.svg" alt="" id="signedUp-illustration" class="slideRight-animation">
-        
-    </section>
-    <footer class="footer-marquee">
+
+        </div>
+    </form>
+
+</main>
+
+<!-- SUCCESS PAGE -->
+<section class="outro-overlay disabled slideUp-animation">
+
+    <h1 class="company">Basket <sup>&trade;</sup></h1>
+
+    <h1 class="outro-greeting">
+        Thank's for signing up..!
+    </h1>
+
+    <img src="./assets/images/shape.svg" alt="" class="shape">
+
+    <img src="./assets/images/signedUp.svg"
+         alt=""
+         id="signedUp-illustration"
+         class="slideRight-animation">
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-marquee">
     <div class="marquee-text">
-        © 2025 Basket™ | All Rights Reserved | Built with ❤️ |By Alisetty Supriya
+        © 2025 Basket™ | All Rights Reserved | Built with ❤️ | By Alisetty Supriya
     </div>
 </footer>
+
 </body>
 </html>
